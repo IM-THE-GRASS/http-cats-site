@@ -27,13 +27,13 @@ def index() -> rx.Component:
         rx.card(
             rx.vstack(
                 rx.heading(
-                    "HTTP error cats", 
+                    "HTTP status code cats", 
                     font_size = "50px", 
                     margin_top="1%", 
                     color_scheme="green"
                 ),
                 rx.hstack(
-                    rx.text("error code:", margin_top="0.5%"),
+                    rx.text("status code:", margin_top="0.5%"),
                     motion(
                         rx.input(
                             placeolder="haii",
